@@ -1,0 +1,242 @@
+.featured-interviews {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+	grid-template-rows: .05fr .75fr .75fr .75fr .75fr .05fr;
+	grid-gap: 2rem;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		height: 40vh;
+	}
+
+	img:hover {
+		border: dashed 3px;
+		border-color: #69cce2;
+		padding: 1rem;
+		filter: opacity(50%);
+	}
+
+	.page-title {
+		grid-column: 2 / span 2;
+		grid-row: 1;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+
+
+		h1 {
+			grid-column: 2 / span 2;
+			grid-row: 1;
+			text-align: center;
+			align-self: start;
+			font-size: 4rem;
+			padding-bottom: 2.5rem;
+			border-top-style: dashed;
+			border-width: 3px;
+			border-color: #69cce2;		
+		}
+
+		h2 {
+			grid-column: 2 / span 2;
+			grid-row: 1;
+			text-align: center;
+			align-self: end;
+			font-size: 4rem;
+			border-bottom-style: dashed;
+			border-width: 3px;
+			border-color: #69cce2;
+		}
+	}
+
+	.interview-01 {
+		grid-column: 2 / span 2;
+		grid-row: 2;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: .05fr 2fr .05fr;
+		grid-gap: 4rem;
+
+		.name-01 {
+			grid-column: 1;
+			grid-row: 1 / span 2;
+			align-self: start;
+		}
+
+		.image-01 {
+			grid-column: 1;
+			grid-row: 2;
+			z-index: 0;
+			align-self: start;
+		}
+
+		.quote-01 {
+			grid-column: 2;
+			grid-row: 1 / span 2;
+			align-self: start;
+			line-height: 2rem;
+			padding-top: 5rem;
+		}
+
+		.text-01 {
+			grid-column: 2;
+			grid-row: 2;
+			align-self: center;
+			z-index: 0;
+			padding-left: 2rem;
+		}
+	}
+
+	.interview-02 {
+		grid-column: 2 / span 2;
+		grid-row: 3;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: .05fr 2fr .05fr;
+		grid-gap: 4rem;
+
+		.name-02 {
+			grid-column: 2;
+			grid-row: 1 / span 2;
+			align-self: start;
+		}
+
+		.image-02 {
+			grid-column: 2;
+			grid-row: 2;
+			z-index: 0;
+			align-self: start;
+		}
+
+		.quote-02 {
+			grid-column: 1;
+			grid-row: 1 / span 2;
+			align-self: start;
+			line-height: 2rem;
+			padding-top: 5rem;
+		}
+
+		.text-02 {
+			grid-column: 1;
+			grid-row: 2;
+			align-self: center;
+			z-index: 0;
+			padding-left: 2rem;
+		}
+	}
+
+	.interview-03 {
+		grid-column: 2 / span 2;
+		grid-row: 4;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: .05fr 2fr .05fr;
+		grid-gap: 4rem;
+
+		.name-03 {
+			grid-column: 1;
+			grid-row: 1 / span 2;
+			align-self: start;
+		}
+
+		.image-03 {
+			grid-column: 1;
+			grid-row: 2;
+			z-index: 0;
+			align-self: start;
+		}
+
+		.quote-03 {
+			grid-column: 2;
+			grid-row: 1 / span 2;
+			align-self: start;
+			line-height: 2rem;
+			padding-top: 5rem;
+		}
+
+		.text-03 {
+			grid-column: 2;
+			grid-row: 2;
+			align-self: center;
+			z-index: 0;
+			padding-left: 2rem;
+		}
+	}
+
+	.interview-04 {
+		grid-column: 2 / span 2;
+		grid-row: 5;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: .05fr 2fr .05fr;
+		grid-gap: 4rem;
+
+		.name-04 {
+			grid-column: 2;
+			grid-row: 1 / span 2;
+			align-self: start;
+		}
+
+		.image-04 {
+			grid-column: 2;
+			grid-row: 2;
+			z-index: 0;
+			align-self: start;
+		}
+
+		.quote-04 {
+			grid-column: 1;
+			grid-row: 1 / span 2;
+			align-self: start;
+			line-height: 2rem;
+			padding-top: 5rem;
+		}
+
+		.text-04 {
+			grid-column: 1;
+			grid-row: 2;
+			align-self: center;
+			z-index: 0;
+			padding-left: 2rem;
+		}
+	}
+
+	.interview-05 {
+		grid-column: 2 / span 2;
+		grid-row: 6;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: .05fr 2fr .05fr;
+		grid-gap: 4rem;
+
+		.name-05 {
+			grid-column: 1;
+			grid-row: 1 / span 2;
+			align-self: start;
+		}
+
+		.image-05 {
+			grid-column: 1;
+			grid-row: 2;
+			z-index: 0;
+			align-self: start;
+		}
+
+		.quote-05 {
+			grid-column: 2;
+			grid-row: 1 / span 2;
+			align-self: start;
+			line-height: 2rem;
+			padding-top: 5rem;
+		}
+
+		.text-05 {
+			grid-column: 2;
+			grid-row: 2;
+			align-self: center;
+			z-index: 0;
+			padding-left: 2rem;
+		}
+	}
+}
+
